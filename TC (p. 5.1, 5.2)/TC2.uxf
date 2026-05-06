@@ -4,7 +4,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>99</x>
+      <x>90</x>
       <y>315</y>
       <w>180</w>
       <h>144</h>
@@ -13,6 +13,7 @@
 --
 -numerSeryjny: String
 -rodzajZawartosci: String
+-kategoria: String
 -waga: float
 -gabaryt: String
 -danePrzewoznika: String
@@ -23,7 +24,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>72</x>
+      <x>63</x>
       <y>540</y>
       <w>180</w>
       <h>171</h>
@@ -37,7 +38,7 @@
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>54</x>
+      <x>45</x>
       <y>783</y>
       <w>198</w>
       <h>45</h>
@@ -49,7 +50,7 @@
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>144</x>
+      <x>135</x>
       <y>450</y>
       <w>54</w>
       <h>108</h>
@@ -62,7 +63,7 @@ m2=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>135</x>
+      <x>126</x>
       <y>702</y>
       <w>36</w>
       <h>99</h>
@@ -77,7 +78,7 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>423</x>
+      <x>414</x>
       <y>351</y>
       <w>153</w>
       <h>99</h>
@@ -91,7 +92,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>261</x>
       <y>387</y>
       <w>171</w>
       <h>54</h>
@@ -107,7 +108,7 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>486</x>
+      <x>477</x>
       <y>594</y>
       <w>135</w>
       <h>90</h>
@@ -120,7 +121,7 @@ rejestrujŁadunek()</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>495</x>
+      <x>486</x>
       <y>441</y>
       <w>90</w>
       <h>171</h>
@@ -133,7 +134,7 @@ m2=1</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>261</x>
       <y>450</y>
       <w>234</w>
       <h>180</h>
@@ -149,7 +150,7 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>72</x>
+      <x>63</x>
       <y>144</y>
       <w>144</w>
       <h>81</h>
@@ -164,7 +165,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>135</x>
+      <x>126</x>
       <y>216</y>
       <w>135</w>
       <h>117</h>
@@ -180,7 +181,7 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>315</x>
+      <x>306</x>
       <y>171</y>
       <w>225</w>
       <h>81</h>
@@ -196,7 +197,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>432</x>
+      <x>423</x>
       <y>243</y>
       <w>162</w>
       <h>126</h>
@@ -212,7 +213,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>261</x>
       <y>243</y>
       <w>153</w>
       <h>90</h>
@@ -228,7 +229,7 @@ m2=1
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>378</x>
+      <x>369</x>
       <y>18</y>
       <w>81</w>
       <h>45</h>
@@ -242,7 +243,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>405</x>
+      <x>396</x>
       <y>54</y>
       <w>99</w>
       <h>135</h>
@@ -258,7 +259,7 @@ korzysta v
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>612</x>
+      <x>603</x>
       <y>261</y>
       <w>180</w>
       <h>81</h>
@@ -274,7 +275,7 @@ korzysta v
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>270</x>
+      <x>261</x>
       <y>297</y>
       <w>360</w>
       <h>81</h>
@@ -288,7 +289,7 @@ przetwarza</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>540</x>
+      <x>531</x>
       <y>756</y>
       <w>207</w>
       <h>45</h>
@@ -302,7 +303,7 @@ przetwarza</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>702</x>
+      <x>693</x>
       <y>333</y>
       <w>99</w>
       <h>441</h>
@@ -318,7 +319,7 @@ generuje v
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>297</x>
+      <x>288</x>
       <y>612</y>
       <w>126</w>
       <h>99</h>
@@ -331,7 +332,7 @@ generuje v
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>225</x>
+      <x>216</x>
       <y>450</y>
       <w>144</w>
       <h>180</h>
@@ -347,7 +348,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>414</x>
+      <x>405</x>
       <y>702</y>
       <w>144</w>
       <h>108</h>
@@ -363,7 +364,7 @@ używa v
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>738</x>
+      <x>729</x>
       <y>180</y>
       <w>90</w>
       <h>27</h>
@@ -375,7 +376,7 @@ używa v
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>756</x>
+      <x>747</x>
       <y>198</y>
       <w>36</w>
       <h>81</h>
@@ -388,7 +389,7 @@ m2=*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>576</x>
+      <x>567</x>
       <y>81</y>
       <w>135</w>
       <h>27</h>
@@ -400,7 +401,7 @@ m2=*</panel_attributes>
   <element>
     <id>UMLClass</id>
     <coordinates>
-      <x>783</x>
+      <x>774</x>
       <y>99</y>
       <w>171</w>
       <h>27</h>
@@ -412,7 +413,7 @@ m2=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>801</x>
+      <x>792</x>
       <y>117</y>
       <w>72</w>
       <h>81</h>
@@ -427,7 +428,7 @@ m2=1..*
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>666</x>
+      <x>657</x>
       <y>99</y>
       <w>99</w>
       <h>99</h>
@@ -442,7 +443,7 @@ m2=1
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>783</x>
+      <x>774</x>
       <y>117</y>
       <w>171</w>
       <h>198</h>
@@ -455,7 +456,7 @@ m2=*</panel_attributes>
   <element>
     <id>Relation</id>
     <coordinates>
-      <x>639</x>
+      <x>630</x>
       <y>99</y>
       <w>36</w>
       <h>180</h>
