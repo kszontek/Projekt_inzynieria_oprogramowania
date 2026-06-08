@@ -1,0 +1,232 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<diagram program="umlet" version="15.1">
+  <zoom_level>5</zoom_level>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>240</x>
+      <y>325</y>
+      <w>110</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;aplikacja&gt;&gt;
+Klient mobilny
+(Kierowca - BYOD)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>240</x>
+      <y>245</y>
+      <w>130</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;portal webowy&gt;&gt;
+Panel Webowy
+(Operator, Koordynator, Zarząd)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>465</x>
+      <y>260</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Obsługi Zgłoszeń
+i Rejestru Awizacji</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>560</x>
+      <y>260</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Alokacji 
+Zasobów Portowych</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>660</x>
+      <y>260</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Cyfrowych Kart
+Załadunkowych (PWA)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>465</x>
+      <y>320</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Automatycznego
+Harmonogramowania</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>560</x>
+      <y>320</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Pulpitów
+Dyspozytorskich</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>660</x>
+      <y>320</y>
+      <w>85</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>Moduł Analityczny
+i Raportów KPI</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>785</x>
+      <y>260</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;serwer plików&gt;&gt;
+Magazyn PDF (MinIO / S3)</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>785</x>
+      <y>320</y>
+      <w>110</w>
+      <h>35</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;serwer zewnętrzny&gt;&gt;
+Brama Poczty E-mail</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>455</x>
+      <y>410</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>Warstwa Dostępowa (ORM)
+Interfejsy IRead / IWrite</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>615</x>
+      <y>410</y>
+      <w>120</w>
+      <h>40</h>
+    </coordinates>
+    <panel_attributes>&lt;&lt;baza danych&gt;&gt;
+Relacyjna Baza Oracle</panel_attributes>
+    <additional_attributes/>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>345</x>
+      <y>345</y>
+      <w>95</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;REST / HTTPS&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;170.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>365</x>
+      <y>270</y>
+      <w>75</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;REST / HTTPS&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;130.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>270</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;API&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>740</x>
+      <y>330</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;API&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>510</x>
+      <y>370</y>
+      <w>15</w>
+      <h>50</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;</panel_attributes>
+    <additional_attributes>10.0;10.0;10.0;80.0</additional_attributes>
+  </element>
+  <element>
+    <id>Relation</id>
+    <coordinates>
+      <x>570</x>
+      <y>420</y>
+      <w>55</w>
+      <h>20</h>
+    </coordinates>
+    <panel_attributes>lt=.&gt;
+&lt;&lt;SQL&gt;&gt;</panel_attributes>
+    <additional_attributes>10.0;20.0;90.0;20.0</additional_attributes>
+  </element>
+  <element>
+    <id>UMLPackage</id>
+    <coordinates>
+      <x>430</x>
+      <y>240</y>
+      <w>315</w>
+      <h>135</h>
+    </coordinates>
+    <panel_attributes>Backend — Warstwa logiki biznesowej (Spring Boot API)</panel_attributes>
+    <additional_attributes/>
+  </element>
+</diagram>
